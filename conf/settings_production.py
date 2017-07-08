@@ -11,7 +11,7 @@ from settings import APP_ID
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # 默认用mysql
-        'NAME': 'prod',                        # 数据库名 (默认与APP_ID相同)
+        'NAME': 'prod',                        # 数据库名 (默认与APP_ID相同1)
         'USER': 'test',                            # 你的数据库user
         'PASSWORD': 'test',                        # 你的数据库password
         'HOST': 'rm-2zezm24r7p176s6rqo.mysql.rds.aliyuncs.com',                   		   # 数据库HOST
